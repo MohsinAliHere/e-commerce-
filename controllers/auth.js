@@ -1,4 +1,4 @@
-const { createResponseObject, generateToken } = require("../utills/common");
+const { createResponseObject, generateToken } = require("../util/common");
 const Auth = require("../model/auth");
 const bcrypt = require("bcrypt");
 const register = async (req, res) => {
